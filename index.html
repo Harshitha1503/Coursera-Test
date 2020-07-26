@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+<style >
+    /*basic style*/
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-color: pink;
+    }
+    h1 {
+        margin: 100px;
+        text-align: center;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 175%;
+    }
+    section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+    p {
+        position: relative;
+        clear: right;
+    }
+    div {
+        position: relative;
+        background-color: orange;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+    .sub1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: yellow;
+        
+    }
+    .sub2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: maroon;
+        
+    }
+    .sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: tomato;
+        
+    }
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: orange;
+        font-family: Helvetica;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+    }
+    
+    .row {
+        width: 90%;
+    }
+    
+    /*desktop version*/
+    @media (min-width: 992px){
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px){
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    /*mobile version*/
+    @media (max-width: 767px){
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+</style>
+<body >
+<h1>Yummy Chicken!!!</h1>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub1">Chicken Lollipops</p>
+            <p class="content">
+             The oriental chicken lollipops get a desi makeover. Chicken wrapped in rustic spices and fried crisp. A great party starter to impress your guests this festive season. You can serve it with rumali rotis too. 
+            </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub2">Butter Chicken</p>
+            <p class="content">Straight from a Punjabi kitchen, butter chicken has been an instant hit through the years. Marinated overnight, the chicken is roasted and cooked in tomato puree, cream and masalas. Enjoy the classic creaminess of the dish with this recipe. </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+    <div>
+        <p class="sub3">Tandoori Chicken</p>
+            <p class="content">Among the most famous Indian foods, tandoori chicken is loved by people the world over. The nice thing about this dish is that it's really easy to make. It gets its name from the way it is cooked—in a tandoor, or clay oven. After the chicken is marinated in a spiced yogurt mixture, the pieces are threaded onto skewers and then placed in the tandoor to cook. Don't worry if you don't have a tandoor—this recipe calls for cooking the chicken in</p>
+    </div>
+</body>
+</html>
